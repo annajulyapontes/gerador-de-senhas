@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #18181B;
+  background-color: #148065;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@ body{
 }
 
 .logo{
-  max-width: 600px;
+  max-width: 850px;
   margin-bottom: 24px;
 }
 
@@ -44,7 +44,7 @@ body{
 .button-cta{
   height: 40px;
   margin-top: 40px;
-  background-color: #3EB72B;
+  background-color: #3955b1;
   border:0;
   border-radius: 4px;
   color: #FFF;
@@ -98,7 +98,7 @@ body{
   padding: 6px 8px;
   font-size: 16px;
   border-radius: 6px;
-  background: rgb(15, 15, 15);
+  background: #3955b1;
   opacity: 0;
   visibility: hidden;
   transition: all .5s ease-in-out;
@@ -109,4 +109,18 @@ body{
   bottom: 50px;
   visibility: visible;
   opacity: 1;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 24px;
+ 
+}
+
+footer p{
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
 }
